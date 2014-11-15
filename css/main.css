@@ -108,18 +108,31 @@ body {
 	top: 3em;
 }
 
+.nav-footer li {
+	list-style-type: none;
+}
 
 
 @media only screen and (min-width: 25em) {
-	.nav-btn {
-		display: none;
-
-	}
-
 
 }
 
 @media only screen and (min-width: 38em) {
+		.nav-btn {
+		display: none;
+
+	}
+
+	.nav-top {
+		display: inline-block;
+		padding-right:auto;	
+	}
+
+	.nav-top li {
+		float: left;
+		padding-left:1em; 
+		padding:right1em;
+	}
 
 	
 }
