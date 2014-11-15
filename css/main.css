@@ -29,16 +29,18 @@ body {
 }
 .logo {
 	width: 150%;
-}
-
-.masthead {
-	background-color: #E8E8E8;
 	position: relative;
 
 }
 
+.masthead {
+	background-color: #E8E8E8;
+	
+}
+
 .masthead a {
 	text-decoration: none;
+	color: #ccc;
 }
 
 .masthead li {
@@ -46,7 +48,10 @@ body {
 }
 
 .nav-top {
+	background: grey;
 	display: none;
+
+
 }
 
 .nav-top[data-state="expanded"] {
@@ -65,7 +70,7 @@ body {
 	overflow: hidden;
 	position: absolute;
 	right: 10px;
-	bottom: 20px;
+	top: 10px;
 
 	width:45px;
 
@@ -80,8 +85,27 @@ body {
 .nav-btn:focus,
 .nav-btn:active {
 	background-color: #484848;
+}
 
+.banner-img {
+	padding-top: 75%; 
+	background: #FF0000 url("http://placehold.it/2000x1500") no-repeat;
+	background-size: cover;
 
+}
+.banner {
+		position: relative;
+
+}
+
+.title {
+	position: absolute;
+	top: 50%;
+
+}
+.sign-up {
+	position: absolute;
+	top: 3em;
 }
 
 
