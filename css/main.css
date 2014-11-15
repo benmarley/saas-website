@@ -27,18 +27,22 @@ body {
 	display: block;
 	width: 100%;
 }
-
 .logo {
+	width: 150%;
 }
 
 .masthead {
 	background-color: #E8E8E8;
+	position: relative;
 
 }
 
-.footer {
-	background-color: #E8E8E8;
+.masthead a {
+	text-decoration: none;
+}
 
+.masthead li {
+	list-style-type: none;
 }
 
 .nav-top {
@@ -46,14 +50,47 @@ body {
 }
 
 .nav-top[data-state="expanded"] {
+	display: block;
+
+}
+
+.footer a { 
+	background-color: #E8E8E8;
+	text-decoration: none;
+}
+
+.nav-btn {
+	bottom:0;
+	height:48px;
+	overflow: hidden;
+	position: absolute;
+	right: 10px;
+	bottom: 20px;
+
+	width:45px;
+
+	background: transparent url("../images/toggle-fill.svg") no-repeat 0 0;
+
+	text-indent:100%;
+	white-space: no-wrap;
+
+}
+
+.nav-btn:hover,
+.nav-btn:focus,
+.nav-btn:active {
+	background-color: #484848;
 
 
 }
 
 
 
-
 @media only screen and (min-width: 25em) {
+	.nav-btn {
+		display: none;
+
+	}
 
 
 }
