@@ -28,7 +28,7 @@ body {
 	width: 100%;
 }
 .logo {
-	width: 150%;
+	width: 100%;
 	position: relative;
 
 }
@@ -62,6 +62,10 @@ body {
 .footer a { 
 	background-color: #E8E8E8;
 	text-decoration: none;
+}
+
+.footer {
+	background-color: #E8E8E8;
 }
 
 .nav-btn {
@@ -112,8 +116,23 @@ body {
 	list-style-type: none;
 }
 
+.footer li {
+	color: black;
+	float: left;
+}
+.banner-img-middle {
+	padding-top: 60%;
+	background: #FF0000 url("http://placehold.it/1500x900") no-repeat;
+	background-size: cover;
+
+
+}
+
 
 @media only screen and (min-width: 25em) {
+	.nav-footer {
+		display: inline-block;
+	}
 
 }
 
