@@ -28,19 +28,19 @@ body {
 	width: 100%;
 }
 .logo {
-	width: 100%;
+	width: 40%;
 	position: relative;
 
 }
 
 .masthead {
-	background-color: #E8E8E8;
+	background-color: #FFCCCC;
 	
 }
 
 .masthead a {
 	text-decoration: none;
-	color: #ccc;
+	color: grey;
 }
 
 .masthead li {
@@ -48,7 +48,7 @@ body {
 }
 
 .nav-top {
-	background: grey;
+	background: #FFCC99;
 	display: none;
 
 
@@ -91,40 +91,45 @@ body {
 	background-color: #484848;
 }
 
-.banner-img {
+.banner {
 	padding-top: 75%; 
+	position: relative;
 	background: #FF0000 url("http://placehold.it/2000x1500") no-repeat;
 	background-size: cover;
-
+	text-align:center;
 }
-.banner {
-		position: relative;
 
+.banner-text {
+	position:absolute;
+	width:100%;
+	top:50%;
+	transform:translateY(-50%);
 }
 
 .title {
-	position: absolute;
-	top: 50%;
 
 }
 .sign-up {
-	position: absolute;
-	top: 3em;
+	
 }
 
 .nav-footer li {
 	list-style-type: none;
+	display: block;
 }
 
 .footer li {
 	color: black;
 	float: left;
 }
-.banner-img-middle {
-	padding-top: 60%;
-	background: #FF0000 url("http://placehold.it/1500x900") no-repeat;
-	background-size: cover;
+.banner-mid{
+	width: 100%;
 
+
+}
+
+.background-1 {
+	background-color: #FFCC99;
 
 }
 
@@ -137,8 +142,8 @@ body {
 }
 
 @media only screen and (min-width: 38em) {
-		.nav-btn {
-		display: none;
+	.nav-btn {
+	display: none;
 
 	}
 
@@ -150,7 +155,7 @@ body {
 	.nav-top li {
 		float: left;
 		padding-left:1em; 
-		padding:right1em;
+		padding:right:1em;
 	}
 
 	
