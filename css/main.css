@@ -28,13 +28,13 @@ body {
 	width: 100%;
 }
 .logo {
-	width: 40%;
+	width: 45%;
 	position: relative;
 
 }
 
 .masthead {
-	background-color: #FFCCCC;
+	background-color: #FFCC99;
 	
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .nav-top {
-	background: #FFCC99;
+	background: black;
 	display: none;
 
 
@@ -66,6 +66,7 @@ body {
 
 .footer {
 	background-color: #E8E8E8;
+	width: 100%;
 }
 
 .nav-btn {
@@ -74,7 +75,7 @@ body {
 	overflow: hidden;
 	position: absolute;
 	right: 10px;
-	top: 10px;
+	top: 8px;
 
 	width:45px;
 
@@ -102,20 +103,26 @@ body {
 .banner-text {
 	position:absolute;
 	width:100%;
-	top:50%;
-	transform:translateY(-50%);
+	top:40%;
+	transform:translateY(-55%);
 }
+.banner a {
+	background-color: #ccc;
+	padding:.5em;
+	border-style: solid;
+	border-color: black;
+	text-decoration: none;
+	color: black;
 
-.title {
-
-}
-.sign-up {
-	
 }
 
 .nav-footer li {
 	list-style-type: none;
 	display: block;
+}
+
+.nav-footer {
+
 }
 
 .footer li {
@@ -129,15 +136,29 @@ body {
 }
 
 .background-1 {
-	background-color: #FFCC99;
+	background-color: #F8F8F8;
 
 }
+.small-padding {
+	padding-top:3em;
+}
+.small-padding-bottom {
+	padding-bottom:3em;
+}
+
 
 
 @media only screen and (min-width: 25em) {
 	.nav-footer {
 		display: inline-block;
 	}
+
+.large-padding {
+	padding-top:10em;
+}
+.large-padding-bottom {
+	padding-bottom:10em;
+}
 
 }
 
@@ -150,6 +171,7 @@ body {
 	.nav-top {
 		display: inline-block;
 		padding-right:auto;	
+		background:#FFCC99;
 	}
 
 	.nav-top li {
@@ -157,6 +179,7 @@ body {
 		padding-left:1em; 
 		padding:right:1em;
 	}
+
 
 	
 }
