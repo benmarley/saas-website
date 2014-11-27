@@ -67,6 +67,8 @@ body {
 .footer {
 	background-color: #E8E8E8;
 	width: 100%;
+	overflow: hidden;
+	height: 5em;
 }
 
 .nav-btn {
@@ -120,16 +122,17 @@ body {
 
 .nav-footer li {
 	list-style-type: none;
-	display: block;
+
 }
 
 .nav-footer {
+	
 
 }
 
 .footer li {
 	color: black;
-	float: left;
+
 }
 .banner-mid{
 	width: 100%;
@@ -148,18 +151,35 @@ body {
 	padding-bottom:3em;
 }
 
+.image-hook {
+	position: relative;
+
+}
+
+.center-heading {
+	position: absolute;
+	top:30%;
+	left:10%;
+	line-height: 2rem;
+}
+
+.small-none {
+	display: none;
+}
 
 
 @media only screen and (min-width: 25em) {
-	.nav-footer {
-		display: inline-block;
-	}
+
 
 .large-padding {
 	padding-top:10em;
 }
 .large-padding-bottom {
 	padding-bottom:10em;
+}
+
+.small-none {
+	display:block;
 }
 
 }
@@ -180,6 +200,10 @@ body {
 		float: left;
 		padding-left:1em; 
 		padding:right:1em;
+	}
+
+	.footer li {
+		float: left;
 	}
 
 

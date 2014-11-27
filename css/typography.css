@@ -1,5 +1,5 @@
 html {
-  font: normal 100%/1.5 Georgia,serif;
+  font: normal 100%/1.5 "Playfair Display",serif;
 }
 
 @media only screen and (min-width: 60em) {
@@ -192,4 +192,9 @@ sub {
 .margin-none {
   margin:0;
 
+}
+
+h1, h2, h3, h4, h5, h6,
+.brand-family {
+  font-family: "Playfair Display", serif;
 }
