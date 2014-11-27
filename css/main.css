@@ -28,8 +28,11 @@ body {
 	width: 100%;
 }
 .logo {
-	width: 45%;
+	width: 100%;
 	position: relative;
+	padding-top: 8%;
+	padding-left:1em;
+	max-width: 193px;
 
 }
 
@@ -50,6 +53,7 @@ body {
 .nav-top {
 	background: black;
 	display: none;
+
 
 
 }
@@ -94,6 +98,13 @@ body {
 	background-color: #484848;
 }
 
+.nav-top li:hover,
+.nav-top li:focus,
+.nav-top li:active {
+	background-color: yellow;
+
+
+}
 .banner {
 	padding-top: 75%; 
 	position: relative;
