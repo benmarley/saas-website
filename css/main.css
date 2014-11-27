@@ -30,14 +30,15 @@ body {
 .logo {
 	width: 100%;
 	position: relative;
-	padding-top: 8%;
+	padding-top: 5%;
 	padding-left:1em;
-	max-width: 193px;
+	max-width: 170px;
 
 }
 
 .masthead {
 	background-color: #FFCC99;
+	
 	
 }
 
@@ -110,7 +111,7 @@ body {
 	position: relative;
 	background: #FF0000 url("http://placehold.it/2000x1500") no-repeat;
 	background-size: cover;
-	text-align:center;
+	text-align: center;
 }
 
 .banner-text {
@@ -178,6 +179,14 @@ body {
 	display: none;
 }
 
+.images-flow {
+	position:relative;	
+}
+
+.image-flow-text {
+	position: absolute;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -210,15 +219,12 @@ body {
 	.nav-top li {
 		float: left;
 		padding-left:1em; 
-		padding:right:1em;
+		padding-right:1em;
 	}
 
 	.footer li {
 		float: left;
 	}
-
-
-	
 }
 
 @media only screen and (min-width: 60em) {
