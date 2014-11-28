@@ -27,19 +27,17 @@ body {
 	display: block;
 	width: 100%;
 }
+
 .logo {
 	width: 100%;
 	position: relative;
 	padding-top: 5%;
 	padding-left:1em;
 	max-width: 170px;
-
 }
 
 .masthead {
-	background-color: #FFCC99;
-	
-	
+	background-color: #FFCC99;	
 }
 
 .masthead a {
@@ -50,20 +48,18 @@ body {
 .masthead li {
 	list-style-type: none;
 }
+
 header {
 	max-height: 100px;
 }
+
 .nav-top {
 	background: black;
 	display: none;
-
-
-
 }
 
 .nav-top[data-state="expanded"] {
 	display: block;
-
 }
 
 .footer a { 
@@ -92,7 +88,6 @@ header {
 
 	text-indent:100%;
 	white-space: no-wrap;
-
 }
 
 .nav-btn:hover,
@@ -105,9 +100,8 @@ header {
 .nav-top li:focus,
 .nav-top li:active {
 	background-color: yellow;
-
-
 }
+
 .banner {
 	padding-top: 75%; 
 	position: relative;
@@ -123,6 +117,7 @@ header {
 	top:40%;
 	transform:translateY(-55%);
 }
+
 .banner a {
 	background-color: #ccc;
 	padding:.5em;
@@ -132,14 +127,13 @@ header {
 	border-color: black;
 	text-decoration: none;
 	color: black;
-
 }
 
 .nav-footer li {
 	list-style-type: none;
 	padding-bottom: .5em;
-
 }
+
 .nav-footer {
 	padding-top: 1em;
 }
@@ -147,8 +141,6 @@ header {
 
 .footer li {
 	color: black;
-
-
 }
 
 .footer img {
@@ -157,6 +149,7 @@ header {
 	padding-right: 1em;
 	float:left;
 }
+
 .banner-mid{
 	width: 100%;
 }
@@ -165,16 +158,17 @@ header {
 	background-color: #F8F8F8;
 
 }
+
 .small-padding {
 	padding-top:3em;
 }
+
 .small-padding-bottom {
 	padding-bottom:3em;
 }
 
 .image-hook {
 	position: relative;
-
 }
 
 .center-heading {
@@ -207,41 +201,35 @@ header {
 
 .center-text {
 	text-align: right;
-	padding-right: 10%;;
+	padding-right: 10%;
+	line-height: 1.5em;
 }
-
-
-
-
-
 
 @media only screen and (min-width: 25em) {
 
 
-.large-padding {
-	padding-top:10em;
-}
-.large-padding-bottom {
-	padding-bottom:10em;
-}
+	.large-padding {
+		padding-top:10em;
+	}
 
-.small-none {
-	display:block;
-}
+	.large-padding-bottom {
+		padding-bottom:10em;
+	}
 
-.social-media img {
-	max-width: 6em;
-	padding:0;
-	float: none;
-}
+	.small-none {
+		display:block;
+	}
 
+	.social-media img {
+		max-width: 6em;
+		padding:0;
+		float: none;
+	}
 
-.footer li {
-	color: black;
-	padding-right: 2em;
-
-
-}
+	.footer li {
+		color: black;
+		padding-right: 2em;
+	}
 
 }
 
@@ -265,7 +253,6 @@ header {
 	.footer li {
 		float: left;
 	}
-
 }
 
 @media only screen and (min-width: 60em) {
