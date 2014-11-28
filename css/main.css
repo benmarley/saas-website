@@ -137,7 +137,11 @@ header {
 
 .nav-footer li {
 	list-style-type: none;
+	padding-bottom: .5em;
 
+}
+.nav-footer {
+	padding-top: 1em;
 }
 
 
@@ -195,14 +199,17 @@ header {
 	padding: .5em;
 }
 
-.iconography {
-	max-width: 5.3em;
+.social-media img {
+	max-width: 3em;
+	padding:0;
+	float: right;
 }
 
 .center-text {
 	text-align: right;
 	padding-right: 10%;;
 }
+
 
 
 
@@ -220,6 +227,20 @@ header {
 
 .small-none {
 	display:block;
+}
+
+.social-media img {
+	max-width: 6em;
+	padding:0;
+	float: none;
+}
+
+
+.footer li {
+	color: black;
+	padding-right: 2em;
+
+
 }
 
 }
@@ -244,6 +265,7 @@ header {
 	.footer li {
 		float: left;
 	}
+
 }
 
 @media only screen and (min-width: 60em) {
