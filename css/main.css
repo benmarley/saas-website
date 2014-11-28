@@ -49,12 +49,9 @@ body {
 	list-style-type: none;
 }
 
-header {
-	max-height: 100px;
-}
 
 .nav-top {
-	background: black;
+	background: #996666;
 	display: none;
 }
 
@@ -176,6 +173,7 @@ header {
 	top:30%;
 	left:10%;
 	line-height: 2rem;
+	padding-right: 1em;
 }
 
 .small-none {
@@ -203,6 +201,11 @@ header {
 	text-align: right;
 	padding-right: 10%;
 	line-height: 1.5em;
+}
+
+footer ul {
+	margin: 0;
+	padding-left:.5em;
 }
 
 @media only screen and (min-width: 25em) {
@@ -252,6 +255,9 @@ header {
 
 	.footer li {
 		float: left;
+	}
+	.footer {
+		max-height: 100px;
 	}
 }
 
