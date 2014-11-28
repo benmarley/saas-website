@@ -50,7 +50,9 @@ body {
 .masthead li {
 	list-style-type: none;
 }
-
+header {
+	max-height: 100px;
+}
 .nav-top {
 	background: black;
 	display: none;
@@ -153,8 +155,6 @@ body {
 }
 .banner-mid{
 	width: 100%;
-
-
 }
 
 .background-1 {
