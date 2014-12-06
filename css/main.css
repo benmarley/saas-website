@@ -41,7 +41,7 @@ a:focus {
 }
 
 .masthead {
-	background-color: #FFCC99;	
+	background-color: #669999;	
 }
 
 .masthead a {
@@ -54,7 +54,7 @@ a:focus {
 }
 
 .nav-top {
-	background: #996666;
+	background: #669999;
 	display: none;
 }
 
@@ -105,7 +105,7 @@ a:focus {
 .banner {
 	padding-top: 60%; 
 	position: relative;
-	background: #FF0000 url("http://placehold.it/2000x1500") no-repeat;
+	background: #FF0000 url("../images/banner-headphones.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -120,14 +120,16 @@ a:focus {
 }
 
 .banner a {
-	background-color: #ccc;
+	background:none;
 	padding:.5em;
-	border:1px;
+	padding-left: 1em;
+	padding-right: 1em;
+	border:2px;
 	border-radius: 25px;
 	border-style: solid;
-	border-color: black;
+	border-color: white;
 	text-decoration: none;
-	color: black;
+	color: white;
 	position: relative;
 	top:.5em;
 }
@@ -197,12 +199,12 @@ a:focus {
 }
 
 .images-flow {
-	position:relative;
+	
 	overflow: hidden;	
 }
 
 .image-flow-text {
-	position: absolute;
+	
 	top: 1em;
 	padding: .5em;
 }
@@ -254,6 +256,14 @@ footer ul {
 	display: none;
 }
 
+.heading-text {
+	color: white;
+}
+
+.banner p{
+	color: white;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -294,7 +304,7 @@ footer ul {
 
 	.nav-top {
 		display: inline-block;	
-		background:#FFCC99;
+		background:#669999;
 	}
 
 	.nav-top li {
