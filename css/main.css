@@ -158,12 +158,6 @@ a:focus {
 	color: black;
 }
 
-.footer img {
-	max-height: 4em;
-	padding-left: 1em;
-	padding-right: 1em;
-	float:left;
-}
 
 .banner-mid{
 	width: 100%;
@@ -209,11 +203,6 @@ a:focus {
 	padding: .5em;
 }
 
-.social-media img {
-	max-width: 3em;
-	padding:0;
-	float: right;
-}
 
 .center-text {
 	text-align: right;
@@ -264,6 +253,13 @@ footer ul {
 	color: white;
 }
 
+.social-media-links img{
+ float: left;
+ display: inline-block;
+ max-width: 40px;
+ padding-right: 5%;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -279,12 +275,6 @@ footer ul {
 		display:block;
 	}
 
-	.social-media img {
-		max-width: 6em;
-		padding:0;
-		float: none;
-	}
-
 	.footer li {
 		color: black;
 		padding-right: 1em;
@@ -292,6 +282,12 @@ footer ul {
 
 	.hidden-text {
 		display: block;
+}
+	.social-media-links img{
+	 float: left;
+	 display: inline-block;
+	 max-width: 60px;
+	 padding-right: 5%;
 }
 }
 
@@ -327,7 +323,12 @@ footer ul {
 
 	.copyright {
 		position: relative;
-		bottom: 1em;
+}
+.social-media-links img{
+ float: left;
+ display: inline-block;
+ max-width: 90px;
+ padding-right: 5%
 }
 
 
