@@ -2,25 +2,31 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>SAAS WEBSITE</title>
+    <title>Audio Library</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link href="css/grid.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,900,400italic' rel='stylesheet'>
     <link href="css/typography.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-	<main>
+	
 
-		<header class="masthead grid">
-			<div class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4">
+		<ul class="skip-links">
+			<li><a href="#main">Skip to Main Content</a></li>
+			<li><a href="#navigation">Skip to Navigation</a></li>
+		</ul>
+
+		<header class="masthead grid" id="top" role="banner">
+			<div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-4 unit-l-1-4">
 					<a href="index.html">
-						<img src="http://placehold.it/50x30" class="logo">
+						<img src="images/logo.svg" class="logo" alt="Audio Library Logo">
 					</a>
 			</div>
 
 			<a href="#bottom-nav" class="nav-btn">Navigate</a>
 
-			<nav class="nav nav-top unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-1-4" data-state="collapsed">
+			<nav role="navigation" id="navigation" class="nav nav-top unit unit-xs-1 unit-s-1 unit-m-3-4 unit-l-3-4 pad-top" data-state="collapsed">
 				<ul class="peta">
 					<li class="terra"><a href="index.html">Home</a></li>
 					<li class="terra"><a href="pricing.html">Pricing</a></li>
@@ -29,14 +35,47 @@
 			</nav>		
 		</header>
 
+		<main id="main" role="main">
+
+		<div class="banner banner-height">
+			<div class="banner-text">
+				<h1 class="margin-none heading-text">It's Story Time</h1>
+				
+				<p class="gutter hidden-text">Join the community of thousands of Audiobook Lovers</p>
+		
+				<a href="thanks.html" class="sign-up">Try For Free</a>
+			</div>	
+		</div>
+
+		
+			
 		<footer class="footer grid">
-			<nav class="unit">
+			
+			<nav class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
 				<ul class="nav nav-footer" id="bottom-nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Pricing</a></li>
-					<li><a href="#">Sign-Up</a></li>
+					<li class="giga"><a href="index.html">Home</a></li>
+					<li class="giga"><a href="pricing.html">Pricing</a></li>
+					<li class="giga"><a href="signup.html">Sign-Up</a></li>
 				</ul>
-			</nav>	
+			</nav>
+
+			<div class="pad-top pad-bottom social-media-links unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+				<a href="http://facebook.com">
+					<img src="images/social-media-icon-facebook.svg">
+				</a>
+				<a href="http://twitter.com">
+					<img src="images/social-media-icon-twitter.svg">
+				</a>
+				<a href="http://youtube.com">
+					<img src="images/social-media-icon-youtube.svg">
+				</a>
+
+			</div>
+
+			<div class="copyright unit" role="contentinfo">
+				<p class="micro"> Copyright 2014 AudioLibrary<a href="#top">Top</a></p>
+			</div>
+
 		</footer>
 
 		<script src="js/nav.js"></script>
