@@ -254,10 +254,10 @@ footer ul {
 }
 
 .social-media-links img{
- float: left;
+ float: right;
  display: inline-block;
  max-width: 40px;
- padding-right: 5%;
+ padding-right: 2%;
 }
 
 
@@ -284,8 +284,7 @@ footer ul {
 		display: block;
 }
 	.social-media-links img{
-	 float: left;
-	 display: inline-block;
+
 	 max-width: 60px;
 	 padding-right: 5%;
 }
@@ -324,12 +323,11 @@ footer ul {
 	.copyright {
 		position: relative;
 }
-.social-media-links img{
- float: left;
- display: inline-block;
- max-width: 90px;
- padding-right: 5%
-}
+	.social-media-links img{
+
+	 max-width: 90px;
+	 padding-right: 5%
+	}
 
 
 }
