@@ -290,7 +290,7 @@ footer ul {
 .banner-signup{
 	padding-top: 7%; 
 	position: relative;
-	background: #999999;
+	background: #DDDDDD;
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
@@ -317,7 +317,11 @@ footer ul {
 }
 
 .price-list li {
+	font-size: .8889rem;
+	text-align: center;
 	list-style-type: none;
+	line-height: 2.5rem;
+
 
 }
 
@@ -358,6 +362,9 @@ footer ul {
 	line-height: 2rem;
 	padding-right: 1em;
 	display: block;
+}
+.price-list li {
+	font-size: 100%;
 }
 }
 
