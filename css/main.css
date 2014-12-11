@@ -41,7 +41,7 @@ a:focus {
 }
 
 .masthead {
-	background-color: #669999;	
+	background-color:#669999;
 }
 
 .masthead a {
@@ -54,7 +54,7 @@ a:focus {
 }
 
 .nav-top {
-	background: #669999;
+	background-color:#669999;
 	display: none;
 }
 
@@ -132,7 +132,7 @@ a:focus {
 }
 
 .banner a {
-	background:none;
+	background-color: rgba(255, 255, 255, .60);
 	padding:.5em;
 	padding-left: 1em;
 	padding-right: 1em;
@@ -141,7 +141,7 @@ a:focus {
 	border-style: solid;
 	border-color: white;
 	text-decoration: none;
-	color: white;
+	color: black;
 	position: relative;
 	top:.5em;
 }
@@ -176,7 +176,8 @@ a:focus {
 }
 
 .background-1 {
-	background-color: #F8F8F8;
+	background-image: url(../images/navigation-pattern.svg);
+	background-size: 7em;
 
 }
 
@@ -325,6 +326,10 @@ footer ul {
 
 }
 
+.submit-button {
+	border: solid 3px;
+}
+
 
 
 @media only screen and (min-width: 25em) {
@@ -387,7 +392,7 @@ footer ul {
 
 	.nav-top {
 		display: inline-block;	
-		background:#669999;
+		background-color:#669999;
 	}
 
 	.nav-top li {
