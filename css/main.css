@@ -274,12 +274,13 @@ footer ul {
 	max-width: 20em;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 3em;
 }
 
 .banner-signup{
-	padding-top: 9%; 
+	padding-top: 7%; 
 	position: relative;
-	background: #FF0000 url("../images/headphones-painter.jpg") no-repeat;
+	background: #FF0000 url("../images/woman-headphones.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 	overflow: hidden;
