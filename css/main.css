@@ -263,6 +263,15 @@ footer ul {
 
 .max-width {
 	width: 100%;
+	border:solid black 1px;
+	height: 2em;
+
+}
+
+.sign-up-form {
+	max-width: 20em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
