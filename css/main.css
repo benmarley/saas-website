@@ -99,7 +99,9 @@ a:focus {
 .nav-top li:hover,
 .nav-top li:focus,
 .nav-top li:active {
-	background-color: yellow;
+	background-color: #00CC66;
+	border: white;
+	border-radius: 25px
 }
 
 .banner {
@@ -272,6 +274,24 @@ footer ul {
 	max-width: 20em;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.banner-signup{
+	padding-top: 9%; 
+	position: relative;
+	background: #FF0000 url("../images/headphones-painter.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}
+.banner-signup-text{
+	text-align: center;
+
+}
+
+.background-pricing-header {
+	background: white;
+
 }
 
 
