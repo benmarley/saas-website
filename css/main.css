@@ -130,7 +130,7 @@ a:focus {
 }
 
 .banner-thanks{
-	padding-top: 50%; 
+	padding-top: 15%; 
 	position: relative;
 	background: #ccc url("../images/woman-headphones-back.jpg") no-repeat;
 	background-size: cover;
@@ -138,6 +138,13 @@ a:focus {
 	text-align: center;
 	overflow: hidden;
 } 
+
+.bottom-push-banner {
+	margin-bottom: 10em;
+	padding-top:3em;
+	padding-bottom:3em;
+
+}
 
 .banner-text {
 	position:absolute;
@@ -465,7 +472,7 @@ footer ul {
 	.banner {
 	padding-top: 40%; 
 	}
-	
+
 	.banner-middle {
 	padding-top: 55%; 
 	}	
