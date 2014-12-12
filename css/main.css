@@ -63,13 +63,13 @@ a:focus {
 }
 
 .footer a { 
-	background-color: #E8E8E8;
+	background-color: #669999;
 	text-decoration: none;
 	color: black;
 }
 
 .footer {
-	background-color: #E8E8E8;
+	background-color: #669999;
 	width: 100%;
 	overflow: hidden;
 }
@@ -123,6 +123,10 @@ a:focus {
 	text-align: center;
 	overflow: hidden;
 }
+.banner-pricing ul {
+	position:relative;
+	right:1em;
+} 
 
 .banner-text {
 	position:absolute;
@@ -277,7 +281,7 @@ footer ul {
 .max-width {
 	width: 100%;
 	border:solid black 1px;
-	height: 2em;
+	height: 3em;
 
 }
 
@@ -328,6 +332,9 @@ footer ul {
 
 .submit-button {
 	border: solid 3px;
+}
+.white-form-text {
+	color: white;
 }
 
 
