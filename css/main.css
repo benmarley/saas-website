@@ -107,7 +107,7 @@ a:focus {
 .banner {
 	padding-top: 60%; 
 	position: relative;
-	background: #FF0000 url("../images/banner-headphones.jpg") no-repeat;
+	background: #ccc url("../images/banner-headphones.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -117,7 +117,7 @@ a:focus {
 .banner-pricing{
 	padding-top: 20%; 
 	position: relative;
-	background: #FF0000 url("../images/woman-headphones-back.jpg") no-repeat;
+	background: #ccc url("../images/woman-headphones-back.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -131,7 +131,7 @@ a:focus {
 .banner-thanks{
 	padding-top: 50%; 
 	position: relative;
-	background: #FF0000 url("../images/woman-headphones-back.jpg") no-repeat;
+	background: #ccc url("../images/woman-headphones-back.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
@@ -163,7 +163,7 @@ a:focus {
 .banner-middle {
 	padding-top: 70%; 
 	position: relative;
-	background: #FF0000 url("../images/headphones-painter.jpg") no-repeat;
+	background: #ccc url("../images/headphones-painter.jpg") no-repeat;
 	background-size: cover;
 	background-position: center;
 	text-align: center;
