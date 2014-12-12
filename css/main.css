@@ -101,7 +101,7 @@ a:focus {
 .nav-top li:active {
 	background-color: #00CC66;
 	border: white;
-	border-radius: 25px
+	border-radius: 25px;
 }
 
 .banner {
@@ -125,7 +125,7 @@ a:focus {
 }
 .banner-pricing ul {
 	position:relative;
-	right:1em;
+	right:1.5em;
 }
 
 .banner-thanks{
@@ -337,12 +337,10 @@ footer ul {
 }
 
 .price-list li {
-	font-size: .8889rem;
+	font-size: 0.8889rem;
 	text-align: center;
 	list-style-type: none;
 	line-height: 2.5rem;
-
-
 }
 
 .submit-button {
@@ -419,7 +417,7 @@ footer ul {
 	padding-right: 1em;
 	display: block;
 }
-.price-list li {
+	.price-list li {
 	font-size: 100%;
 }
 }
