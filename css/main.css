@@ -233,7 +233,7 @@ a:focus {
 
 
 .center-text {
-	text-align: right;
+	text-align: center;
 	padding-right: 10%;
 	line-height: 1.5em;
 }
@@ -350,6 +350,19 @@ footer ul {
 }
 .white-form-text {
 	color: white;
+}
+
+.header-background {
+	max-width:400px;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+		
+}
+
+.padding-bottom-text {
+	padding-top:5em;
+	padding-bottom:5em;
 }
 
 
