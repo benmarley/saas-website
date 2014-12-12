@@ -11,116 +11,103 @@
 </head>
 <body>
 	
+	<ul class="skip-links">
+		<li><a href="#main">Skip to Main Content</a></li>
+		<li><a href="#navigation">Skip to Navigation</a></li>
+	</ul>
 
-		<ul class="skip-links">
-			<li><a href="#main">Skip to Main Content</a></li>
-			<li><a href="#navigation">Skip to Navigation</a></li>
-		</ul>
+	<header class="masthead grid" id="top" role="banner">
+		<div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-4 unit-l-1-4">
+			<a href="index.html">
+				<img src="images/logo.svg" class="logo" alt="Audio Library Logo">
+			</a>
+		</div>
 
-		<header class="masthead grid" id="top" role="banner">
-			<div class="unit unit-xs-1-3 unit-s-1-3 unit-m-1-4 unit-l-1-4">
-					<a href="index.html">
-						<img src="images/logo.svg" class="logo" alt="Audio Library Logo">
-					</a>
-			</div>
+		<a href="#bottom-nav" class="nav-btn">Navigate</a>
 
-			<a href="#bottom-nav" class="nav-btn">Navigate</a>
+		<nav role="navigation" id="navigation" class="nav nav-top unit unit-xs-1 unit-s-1 unit-m-3-4 unit-l-3-4 pad-top" data-state="collapsed">
+			<ul class="peta">
+				<li class="terra"><a href="index.html">Home</a></li>
+				<li class="terra"><a href="pricing.html">Pricing</a></li>
+				<li class="terra"><a href="signup.html">Sign-Up</a></li>
+			</ul>
+		</nav>		
+	</header>
 
-			<nav role="navigation" id="navigation" class="nav nav-top unit unit-xs-1 unit-s-1 unit-m-3-4 unit-l-3-4 pad-top" data-state="collapsed">
-				<ul class="peta">
-					<li class="terra"><a href="index.html">Home</a></li>
-					<li class="terra"><a href="pricing.html">Pricing</a></li>
-					<li class="terra"><a href="signup.html">Sign-Up</a></li>
-				</ul>
-			</nav>		
-		</header>
+	<main id="main" role="main">
 
-		<main id="main" role="main">
-
-			
-
-			<div class="banner-signup banner-height">
-			
+		<div class="banner-signup banner-height">			
 			<div class="header-background">
 				<h1 class="banner-signup-text gutter">Sign up now and gain access to thousands of audiobooks</h1>
 			</div>
-	
-		
 
 			<div class="sign-up-form gutter">
 				<form action="thanks.html" method="post">
 
 					<div class="push">
+						<label for="name" class="white-form-text giga">First Name</label>
+						<input id="name" class="max-width">
+					</div>
 
-					<label for="name" class="white-form-text giga">First Name</label>
-					<input id="name" class="max-width">
-				</div>
+					<div class="push">
+						<label for="last-name" class="white-form-text giga">Last Name</label>
+						<input id="last-name" class="max-width">
+					</div>
 
-				<div class="push">
-					<label for="last-name" class="white-form-text giga">Last Name</label>
-					<input id="last-name" class="max-width">
-				</div>
+					<div class="push">
+						<label for="e-mail-addr" class="white-form-text giga">Enter E-mail Address</label>
+						<input type="email" id="e-mail-addr" class="max-width">
+					</div>
 
-				<div class="push">
-					<label for="e-mail-addr" class="white-form-text giga">Enter E-mail Address</label>
-					<input type="email" id="e-mail-addr" class="max-width">
-				</div>
+					<div class="push">
+						<label for="password" class="white-form-text giga">Create Password</label>
+						<input type="password" id="password" class="max-width">
 
-				<div class="push">
-					<label for="password" class="white-form-text giga">Create Password</label>
-					<input type="password" id="password" class="max-width">
+					</div>
 
-				</div>
+					<div class="push">
+						<label for="password-re-type" class="white-form-text giga">Retype Password</label>
+						<input type="password" id="password-re-type" class="max-width">
+					</div>
 
-				<div class="push">
-					<label for="password-re-type" class="white-form-text giga">Retype Password</label>
-					<input type="password" id="password-re-type" class="max-width">
-				</div>
-
-				<div>
-					<button type="submit" class="submit-button tera">Submit</button>
-				</div>
-
+					<div>
+						<button type="submit" class="submit-button tera">Submit</button>
+					</div>
 				</form>
-
 			</div>
-			</div>
-
-		</main>
+		</div>
+	</main>
 
 		
 			
-		<footer class="footer grid">
+	<footer class="footer grid">
 			
-			<nav class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-				<ul class="nav nav-footer" id="bottom-nav">
-					<li class="giga"><a href="index.html">Home</a></li>
-					<li class="giga"><a href="pricing.html">Pricing</a></li>
-					<li class="giga"><a href="signup.html">Sign-Up</a></li>
-				</ul>
-			</nav>
+		<nav class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+			<ul class="nav nav-footer" id="bottom-nav">
+				<li class="giga"><a href="index.html">Home</a></li>
+				<li class="giga"><a href="pricing.html">Pricing</a></li>
+				<li class="giga"><a href="signup.html">Sign-Up</a></li>
+			</ul>
+		</nav>
 
-			<div class="pad-top pad-bottom social-media-links unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-				<a href="http://facebook.com">
-					<img src="images/social-media-icon-facebook.svg" alt="facebook icon">
-				</a>
-				<a href="http://twitter.com">
-					<img src="images/social-media-icon-twitter.svg" alt="twitter icon">
-				</a>
-				<a href="http://youtube.com">
-					<img src="images/social-media-icon-youtube.svg" alt="youtube icon">
-				</a>
+		<div class="pad-top pad-bottom social-media-links unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+			<a href="http://facebook.com">
+				<img src="images/social-media-icon-facebook.svg" alt="facebook icon">
+			</a>
+			<a href="http://twitter.com">
+				<img src="images/social-media-icon-twitter.svg" alt="twitter icon">
+			</a>
+			<a href="http://youtube.com">
+				<img src="images/social-media-icon-youtube.svg" alt="youtube icon">
+			</a>
+		</div>
 
-			</div>
+		<div class="copyright unit gutter-half" role="contentinfo">
+			<p class="micro"> Copyright 2014 AudioLibrary<a href="#top">Top</a></p>
+		</div>
 
-			<div class="copyright unit gutter-half" role="contentinfo">
-				<p class="micro"> Copyright 2014 AudioLibrary<a href="#top">Top</a></p>
-			</div>
+	</footer>
 
-		</footer>
-
-		<script src="js/nav.js"></script>
-
-
+	<script src="js/nav.js"></script>
 </body>
 </html>

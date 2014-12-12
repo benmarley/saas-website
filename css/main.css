@@ -123,6 +123,7 @@ a:focus {
 	text-align: center;
 	overflow: hidden;
 }
+
 .banner-pricing ul {
 	position:relative;
 	right:1.5em;
@@ -192,7 +193,6 @@ a:focus {
 .background-1 {
 	background-image: url(../images/navigation-pattern.svg);
 	background-size: 7em;
-
 }
 
 .small-padding {
@@ -231,7 +231,6 @@ a:focus {
 	padding: .5em;
 }
 
-
 .center-text {
 	text-align: center;
 	padding-right: 10%;
@@ -263,7 +262,6 @@ footer ul {
     top: 0;
 }
 
-
 .copyright a {
 	color: blue;
 	padding-left: 1em;
@@ -292,7 +290,6 @@ footer ul {
 	width: 100%;
 	border:solid black 1px;
 	height: 3em;
-
 }
 
 .sign-up-form {
@@ -310,26 +307,23 @@ footer ul {
 	background-position: center;
 	overflow: hidden;
 }
+
 .banner-signup-text{
 	text-align: center;
-
 }
 
 .background-pricing-header {
 	background: #996666;
-
-
 }
 
 .pricing-info-padding {
 	margin-bottom: 6em;
-
 }
+
 .white-background {
 	background-color: rgba(255, 255, 255, .50);
 	padding-bottom: 1em;
 	border:solid #996666;
-
 }
 
 .background-transparancy {
@@ -350,8 +344,8 @@ footer ul {
 	border:solid black 1px;
 	padding:.5em;
 	cursor: pointer;
-
 }
+
 .white-form-text {
 	color: white;
 }
@@ -360,8 +354,7 @@ footer ul {
 	max-width:400px;
 	color: white;
 	margin-right: auto;
-	margin-left: auto;
-		
+	margin-left: auto;		
 }
 
 .padding-bottom-text {
@@ -402,12 +395,13 @@ footer ul {
 
 	.hidden-text {
 		display: block;
-}
+	}
+
 	.social-media-links img{
 
 	 max-width: 60px;
 	 padding-right: 5%;
-}
+	}
 
 	.center-heading {
 	position: absolute;
@@ -416,19 +410,17 @@ footer ul {
 	line-height: 2rem;
 	padding-right: 1em;
 	display: block;
-}
+	}
+
 	.price-list li {
 	font-size: 100%;
-}
+	}	
 }
 
 @media only screen and (min-width: 38em) {
-
-
 	
 	.nav-btn {
 	display: none;
-
 	}
 
 	.nav-top {
@@ -456,14 +448,12 @@ footer ul {
 
 	.copyright {
 		position: relative;
-}
-	.social-media-links img{
+	}
 
+	.social-media-links img{
 	 max-width: 90px;
 	 padding-right: 5%
 	}
-
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -471,9 +461,11 @@ footer ul {
 		padding-left: 5em;
 		padding-top: 1.5em;
 	}
-		.banner {
-		padding-top: 40%; 
+
+	.banner {
+	padding-top: 40%; 
 	}
+	
 	.banner-middle {
 	padding-top: 55%; 
 	}	
